@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+/dist
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (never commit sensitive data)
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# testing
+/coverage
+.nyc_output
+
+# vercel
+.vercel
+
+# netlify
+.netlify
+netlify/functions/**/*.js
+netlify/functions/**/*.ts
+!netlify/functions/package.json
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# misc
+.cache
+dist
+*.log
+.turbo
